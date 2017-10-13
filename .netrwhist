@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/peng.zhao/.vim'
+let g:netrw_dirhist_2='/Users/peng.zhao/Desktop/schedules/env'
+let g:netrw_dirhist_3='/Users/peng.zhao/Desktop/schedules/env/prod'
+let g:netrw_dirhist_4='/bin'
+let g:netrw_dirhist_5='/Users/peng.zhao/.ssh'
+let g:netrw_dirhist_6='/Users/peng.zhao/Code/schedules/dags/adi/pull_table'
+let g:netrw_dirhist_7='/Users/peng.zhao/Code/schedules/.git'
+let g:netrw_dirhist_8='/Users/peng.zhao/Code/schedules'
