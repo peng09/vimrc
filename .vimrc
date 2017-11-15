@@ -191,6 +191,21 @@ nnoremap <Leader>a :Ack!<Space>
 " MARKDOWN settings
 let g:vim_markdown_folding_disabled = 1
 
+" nerdtree-git-plugin settings
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
+let g:NERDTreeShowIgnoredStatus = 1
+
 " Tabular settings
 nmap <Leader>t= :Tabularize /=<CR>
 vmap <Leader>t= :Tabularize /=<CR>
@@ -210,4 +225,6 @@ inoremap { {}<Esc>i
 inoremap [ []<Esc>i
 nnoremap <Leader>i gg=G
 nmap <c-s-t> :vs<bar>:b#<CR>
+
+set timeoutlen=1000 ttimeoutlen=0
 
