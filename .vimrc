@@ -224,7 +224,9 @@ vnoremap <Leader>p "_dP
 inoremap { {}<Esc>i
 inoremap [ []<Esc>i
 nnoremap <Leader>i gg=G
-nmap <c-s-t> :vs<bar>:b#<CR>
+nnoremap <silent> <Leader>v          :update<CR>
+vnoremap <silent> <Leader>v         <C-C>:update<CR>
+inoremap <silent> <Leader>v         <C-O>:update<CR>
 
 set timeoutlen=1000 ttimeoutlen=0
 
